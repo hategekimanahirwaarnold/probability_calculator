@@ -12,6 +12,5 @@ probability = prob_calculator.experiment(
     num_experiments=3000)
 print("Probability:", probability)
 hat.draw(5)
-# print(hat.draw(3))
 # Run unit tests automatically
 main(module='test_module', exit=False)
